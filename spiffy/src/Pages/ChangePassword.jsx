@@ -6,7 +6,6 @@ import { useParams } from "react-router-dom";
 
 const ChangePassword = () => {
     const location=useLocation();
-    console.log(location.state);
     const {id}=location.state;
     const [first,setFirst]=useState("");
     const [sec,setSec]=useState("");

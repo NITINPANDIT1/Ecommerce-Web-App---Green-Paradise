@@ -36,36 +36,27 @@ const LoginPage = () => {
         if(contact.length<9 || contact.length>13 ){
             alert("INVALID PHONE NUMBER!!! Please enter a valid number");
         }
-        if(flag==false){
-           
-        details?.map((elem)=>{
-            if(elem.mobile_no == contact){
-                console.log(details);
-                setFlag(true);
-                setName(elem.f_name);
-                setId(elem.id);
-                // setUserExist(true);
-                setKey(true)
-                setUserExist(true);
-                
-                
+        else if(flag==false){     
+            const elem=details.find((elem)=> elem.mobile_no==contact);
+            if(elem){
+                    setFlag(true);
+                    setName(elem.f_name);
+                    setId(elem.id);
+                    setKey(true);
+                    setUserExist(true); 
+            }else{
+                alert("NOT A REGISTERED USER!!! Redirecting to Sign-Up...");
+                navigate(`/signup`, { state: { contact} });
             }
-        })}
-        else if(!userExist){
-            alert("NOT A REGISTERED USER!!! Please Sign-Up");
-            navigate(`/signup`, { state: { contact} });
-        }
-        else{
-            details?.map((elem)=>{
-                if(elem.password == password){
+        }else{
+            const elem=details.find((elem)=> elem.mobile_no==contact);
+            if(elem.password == password){
                     navigate("/");
-                    check=false;
-                }
-            })
-            if(check)
-            alert(`WRONG PASSWORD : "Please fill the right password" or "Click On Forget Password"`);
+                    
+            }else          
+                alert(`WRONG PASSWORD : "Please fill the right password" or "Click On Forget Password"`);
             
-        }
+            }
     
     }
     const handleSignup=()=>{
@@ -95,7 +86,7 @@ const LoginPage = () => {
         <h1 style={{ fontFamily: "'Fasthand', 'cursive'" ,fontSize:"40px",margin:"-2px"}}>Welcome:- {flag?name:"Nature Lover"} </h1>
         <input type="number" placeholder='🔒Enter Mobile No' value={contact} onChange={(e)=>{setContact(e.target.value)}}/>
         {flag && <><input type="password" placeholder='🔑Enter your password' value={password} onChange={(e)=>{setPassword(e.target.value)}}/></>}
-        {contact && <button onClick={handleReset}>Forget Password?</button>}
+        {contact.length>=9 && contact.length<=13 && <button onClick={handleReset}>Forget Password?</button>}
         <div>
         <button onClick={handleClick}>{flag?"Submit":"Login"}</button>
         <button onClick={handleSignup}>Signup</button>
