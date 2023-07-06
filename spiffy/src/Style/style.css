@@ -37,7 +37,9 @@ body{
 }
 .login>div{
     display: flex;
-    margin: 0px -14px;
+    margin: 0px -13px;
+    margin-left: -8px;
+    margin-right: -18px;
 }
 
 .login>div>button{
