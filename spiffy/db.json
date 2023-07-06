@@ -1,7 +1,7 @@
 {
   "logs": [
     {
-      "password": "",
+      "password": "1234567",
       "mobile_no": "8882161931",
       "f_name": "Mohd",
       "l_name": "Zaid",
@@ -13,6 +13,13 @@
       "mobile_no": "9876543210",
       "password": "zxcvb",
       "id": 2
+    },
+    {
+      "f_name": "nitin",
+      "l_name": "sharma",
+      "mobile_no": "9999999999",
+      "password": "qwerty",
+      "id": 3
     }
   ]
 }

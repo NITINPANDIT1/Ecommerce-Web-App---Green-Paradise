@@ -12,7 +12,9 @@ const LoginPage = () => {
     const [name,setName]=useState("");
     const [details,setDetails]=useState([]);
     const [flag,setFlag]=useState(false);
+    const [userExist,setUserExist]=useState(false);
     const [signupFlag,setSignupFlag]=useState(false);
+
     const navigate=useNavigate();
 
     const getData=async()=>{
@@ -32,7 +34,7 @@ const LoginPage = () => {
         if(contact.length<9 || contact.length>13 ){
             alert("INVALID PHONE NUMBER!!! Please enter a valid number");
         }
-        if(flag==false){
+        if(!flag==false){
            
         details?.map((elem)=>{
             if(elem.mobile_no == contact){
@@ -40,10 +42,16 @@ const LoginPage = () => {
                 setFlag(true);
                 setName(elem.f_name);
                 setId(elem.id);
+                setUserExist(true);
                 
                 
             }
-        })}else{
+        })}
+        if(!userExist){
+            alert("NOT A REGISTERED USER!!! Please Sign-Up");
+            navigate(`/signup`, { state: { contact} });
+        }
+        else{
             details?.map((elem)=>{
                 if(elem.password == password){
                     navigate("/");
@@ -59,8 +67,9 @@ const LoginPage = () => {
     const handleSignup=()=>{
         setSignupFlag(true);
     }
+    // I think I am making some error in here>>
     if(signupFlag){
-        return <SignUp contact={contact}/>;
+        navigate(`/signup`, { state: { contact} });
     }
     const handleReset=()=>{  
         const {id,f_name} = details.find((elem) => elem.mobile_no === contact);

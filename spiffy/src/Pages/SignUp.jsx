@@ -1,10 +1,14 @@
 import React from 'react'
 import { useState } from 'react';
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { useNavigate,useLocation} from "react-router-dom";
 
 const SignUp = () => {
-  const [contact,setContact]=useState("");
+  const location=useLocation();
+  // const {contact}=location.state;
+
+  
+  const [contact,setContact]=useState(location.state.contact);
   const [password,setPassword]=useState("");
   const [sec,setSec]=useState("");
   const [f_name,setFName]=useState("");
