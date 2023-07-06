@@ -1,0 +1,18 @@
+{
+  "logs": [
+    {
+      "password": "",
+      "mobile_no": "8882161931",
+      "f_name": "Mohd",
+      "l_name": "Zaid",
+      "id": 1
+    },
+    {
+      "f_name": "Shan",
+      "l_name": "Mohammad",
+      "mobile_no": "9876543210",
+      "password": "zxcvb",
+      "id": 2
+    }
+  ]
+}
