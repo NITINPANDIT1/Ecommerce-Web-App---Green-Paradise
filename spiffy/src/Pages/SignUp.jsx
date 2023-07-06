@@ -6,7 +6,7 @@ import { useNavigate,useLocation} from "react-router-dom";
 const SignUp = () => {
   const location=useLocation();
   // const {contact}=location.state;
-
+  const [details,setDetails]=useState([]);
   
   const [contact,setContact]=useState(location.state.contact);
   const [password,setPassword]=useState("");
@@ -14,6 +14,15 @@ const SignUp = () => {
   const [f_name,setFName]=useState("");
   const [l_name,setLName]=useState("");
   const navigate=useNavigate();
+
+      const getData=async()=>{
+        await axios.get("http://localhost:8080/logs").then(await function (res){
+            setDetails(res.data);
+            // console.log(details);
+        }).catch((err)=>{
+            console.log(err);
+        })
+    }
 
 
 
@@ -35,6 +44,13 @@ const SignUp = () => {
   }
 
   const handleSignup=async()=>{
+
+    const elem=details.find((elem)=>elem.mobile_no==contact);
+
+    if(elem){
+      alert("ALREADY A USER!!! Redirecting to LoginPage");
+      navigate("/login");
+    }
     if(password != sec){
       alert("Password Mismatch!!! Please re-enter the password");
     }else{

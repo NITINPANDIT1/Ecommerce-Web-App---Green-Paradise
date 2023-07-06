@@ -1,11 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { useNavigate ,useLocation} from "react-router-dom";
 import SignUp from './SignUp';
 import '../Style/style.css';
 
 const LoginPage = () => {
+    // const location=useLocation();
+    // // console.log(location.state);
     const [contact,setContact]=useState("");
+    // if(location.state) {
+    //     setContact(location.state.contact);
+    // }
+    
+    
     const [password,setPassword]=useState("");
     const [id,setId]=useState("");
     const [name,setName]=useState("");
