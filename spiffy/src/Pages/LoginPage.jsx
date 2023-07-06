@@ -92,7 +92,7 @@ const LoginPage = () => {
     return (
     
     <div className='login' >        
-        <h1 style={{ fontFamily: "'Fasthand', 'cursive'" ,fontSize:"25px",margin:"-2px"}}>Welcome:- {flag?name:"Nature Lover"} </h1>
+        <h1 style={{ fontFamily: "'Fasthand', 'cursive'" ,fontSize:"40px",margin:"-2px"}}>Welcome:- {flag?name:"Nature Lover"} </h1>
         <input type="number" placeholder='🔒Enter Mobile No' value={contact} onChange={(e)=>{setContact(e.target.value)}}/>
         {flag && <><input type="password" placeholder='🔑Enter your password' value={password} onChange={(e)=>{setPassword(e.target.value)}}/></>}
         {contact && <button onClick={handleReset}>Forget Password?</button>}
