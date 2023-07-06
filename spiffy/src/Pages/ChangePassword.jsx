@@ -41,6 +41,7 @@ const ChangePassword = () => {
   return (
    
     <div className='changePassword'>
+    <h1 style={{ fontFamily: "'Fasthand', 'cursive'" ,fontSize:"40px",margin:"-2px"}}>Reset Password</h1>
     {!flag && <><input type="password" placeholder='Enter new password' value={first} onChange={(e)=>{setFirst(e.target.value)}}/>
     <input type="password" placeholder='Confirm new password' value={sec} onChange={(e)=>{setSec(e.target.value)}}/>
     <button onClick={handleClick}>Save Password</button></>}

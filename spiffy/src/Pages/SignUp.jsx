@@ -46,6 +46,7 @@ const SignUp = () => {
 
     
     <div className='signup'>
+      <h1 style={{ fontFamily: "'Fasthand', 'cursive'" ,fontSize:"40px",margin:"-2px"}}>SignUp</h1>
       <input type="text" placeholder='Enter your First Name' value={f_name} onChange={(e)=>{setFName(e.target.value)}}/>
       <input type="text" placeholder='Enter your Last Name' value={l_name} onChange={(e)=>{setLName(e.target.value)}}/>
       <input type="text" placeholder='Enter your Mobile No.' value={contact} onChange={(e)=>{setContact(e.target.value)}}/>
