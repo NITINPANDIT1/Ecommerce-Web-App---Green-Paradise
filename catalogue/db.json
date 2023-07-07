@@ -1,0 +1,372 @@
+{
+    "plants":
+    [
+    {
+      "name": "Cactus Soil",
+      "price": 4.99,
+      "description": "The Cactus Soil is a specialized soil mix for your cactus and succulent plants. It is made of a blend of well-draining materials to prevent overwatering. The soil is available in various bag sizes.",
+      "category": "soil and fertilisers",
+      "care": "N/A",
+      "is_plant": "No"
+    },
+    {
+      "name": "Fiddle Leaf Fig Set",
+      "price": 99.99,
+      "description": "The Fiddle Leaf Fig Set includes three Fiddle Leaf Fig plants of different sizes, perfect for creating a dramatic focal point in your home. The set includes one small, one medium, and one large Fiddle Leaf Fig plant.",
+      "category": "houseplantsets",
+      "care": "Fiddle Leaf Figs require bright, indirect light to thrive. They prefer well-draining soil and should be watered when the top inch of soil feels dry. Avoid overwatering as it can lead to root rot. Fiddle Leaf Figs benefit from regular misting to increase humidity. Fertilize every 2-4 weeks during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Hanging Basket",
+      "price": 12.99,
+      "description": "The Hanging Basket is a versatile and decorative way to display your trailing houseplants. It is made of durable materials and features a sturdy chain for easy hanging. The basket is available in various sizes and styles.",
+      "category": "plantpots",
+      "care": "N/A",
+      "is_plant": "No"
+    },
+    {
+      "name": "Plant Stand",
+      "price": 19.99,
+      "description": "The Plant Stand is a stylish and functional stand for your houseplants. It is made of durable metal and features a sleek design. The stand is available in various heights and finishes.",
+      "category": "plantpots",
+      "care": "N/A",
+      "is_plant": "No"
+    },
+    {
+      "name": "Snake Plant",
+      "price": 19.99,
+      "description": "Snake Plant, also known as Sansevieria, is a popular houseplant known for its upright, sword-like leaves. It is native to West Africa and is easy to care for, making it a great choice for beginners.",
+      "category": "houseplant",
+      "care": "Snake Plants prefer bright, indirect light but can tolerate low light conditions. They are drought-tolerant and should be watered sparingly, allowing the soil to dry out between waterings. Snake Plants are also known for their air-purifying qualities. Fertilize every 2-3 months during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Snake Plant Set",
+      "price": 59.99,
+      "description": "The Snake Plant Set includes three Snake plants of different sizes, perfect for adding a touch of greenery to any room. The set includes one small, one medium, and one large Snake plant.",
+      "category": "houseplantsets",
+      "care": "Snake Plants prefer bright, indirect light but can tolerate low light conditions. They are drought-tolerant and should be watered sparingly, allowing the soil to dry out between waterings. Snake Plants are also known for their air-purifying qualities. Fertilize every 2-3 months during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Orchid Fertilizer",
+      "price": 8.99,
+      "description": "The Orchid Fertilizer is a specialized fertilizer formulated for orchid plants. It provides the necessary nutrients for healthy growth and beautiful blooms. The fertilizer is available in a liquid or granular form.",
+      "category": "soil and fertilisers",
+      "care": "N/A",
+      "is_plant": "No"
+    },
+    {
+      "name": "Spider Plant Set",
+      "price": 39.99,
+      "description": "The Spider Plant Set includes three Spider plants of different varieties, perfect for adding a touch of green and white to your home. The set includes one Variegated Spider Plant, one Solid Green Spider Plant, and one Curly Spider Plant.",
+      "category": "houseplantsets",
+      "care": "Spider Plants can tolerate a wide range of light conditions, from low to bright indirect light. They prefer well-draining soil and should be watered when the top inch of soil feels dry. Spider Plants benefit from regular misting to increase humidity. Fertilize every 2-4 weeks during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Succulent Care Kit",
+      "price": 14.99,
+      "description": "The Succulent Care Kit includes everything you need to care for your succulent plants. It includes a watering bottle, succulent soil, and a set of mini gardening tools. The care kit is perfect for beginners and succulent enthusiasts.",
+      "category": "care",
+      "care": "N/A",
+      "is_plant": "No"
+    },
+    {
+      "name": "Aloe Vera Set",
+      "price": 24.99,
+      "description": "The Aloe Vera Set includes three Aloe Vera plants of different sizes, perfect for adding a touch of natural healing to your home. The set includes one small, one medium, and one large Aloe Vera plant.",
+      "category": "houseplantsets",
+      "care": "Aloe Vera plants prefer bright, indirect light but can tolerate some direct sunlight. They prefer well-draining soil and should be watered when the top inch of soil feels dry. Aloe Vera plants are drought-tolerant and should be watered sparingly. Fertilize every 2-3 months during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Orchid Care Kit",
+      "price": 24.99,
+      "description": "The Orchid Care Kit includes everything you need to care for your orchid plants. It includes orchid potting mix, orchid fertilizer, and a set of orchid clips. The care kit is designed to help your orchids thrive.",
+      "category": "care",
+      "care": "N/A",
+      "is_plant": "No"
+    },
+    {
+      "name": "Orchid Set",
+      "price": 79.99,
+      "description": "The Orchid Set includes three Orchid plants of different varieties, perfect for adding a touch of exotic beauty to your home. The set includes one Phalaenopsis Orchid, one Cattleya Orchid, and one Dendrobium Orchid.",
+      "category": "houseplantsets",
+      "care": "Orchids require bright, indirect light to thrive. They prefer well-draining orchid-specific potting mix and should be watered when the top inch of the potting mix feels dry. Orchids benefit from regular misting to increase humidity. Fertilize every 2-4 weeks during the growing season with a balanced orchid fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Plant Mister",
+      "price": 7.99,
+      "description": "The Plant Mister is a handy tool for misting your houseplants. It provides a fine mist of water to increase humidity and promote healthy growth. The mister is available in various colors and styles.",
+      "category": "care",
+      "care": "N/A",
+      "is_plant": "No"
+    },
+    {
+      "name": "Rubber Plant Set",
+      "price": 79.99,
+      "description": "The Rubber Plant Set includes three Rubber plants of different sizes, perfect for creating a bold and tropical statement in your home. The set includes one small, one medium, and one large Rubber plant.",
+      "category": "houseplantsets",
+      "care": "Rubber Plants prefer bright, indirect light but can tolerate low light conditions. They prefer well-draining soil and should be watered when the top inch of soil feels dry. Avoid overwatering as it can lead to root rot. Rubber Plants benefit from regular misting to increase humidity. Fertilize every 2-4 weeks during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Plant Pot",
+      "price": 9.99,
+      "description": "The Plant Pot is a stylish and functional pot for your houseplants. It is made of durable ceramic and features a drainage hole to prevent overwatering. The pot is available in various colors and sizes.",
+      "category": "plantpots",
+      "care": "N/A",
+      "is_plant": "No"
+    },
+    {
+      "name": "Pothos",
+      "price": 14.99,
+      "description": "Pothos, also known as Devil's Ivy, is a trailing vine native to the Solomon Islands. It is a popular houseplant due to its attractive heart-shaped leaves and easy care requirements.",
+      "category": "houseplant",
+      "care": "Pothos plants can tolerate a wide range of light conditions, from low to bright indirect light. They prefer well-draining soil and should be watered when the top inch of soil feels dry. Pothos plants are forgiving when it comes to watering, so it's better to underwater than overwater. Fertilize every 2-4 weeks during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Fiddle Leaf Fig",
+      "price": 49.99,
+      "description": "Fiddle Leaf Fig, or Ficus lyrata, is a popular houseplant known for its large, violin-shaped leaves. It is native to western Africa and can grow up to 10 feet tall in the right conditions.",
+      "category": "houseplant",
+      "care": "Fiddle Leaf Figs require bright, indirect light to thrive. They prefer well-draining soil and should be watered when the top inch of soil feels dry. Avoid overwatering as it can lead to root rot. Fiddle Leaf Figs benefit from regular misting to increase humidity. Fertilize every 2-4 weeks during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "ZZ Plant Set",
+      "price": 49.99,
+      "description": "The ZZ Plant Set includes three ZZ plants of different sizes, perfect for adding a touch of modern elegance to your home. The set includes one small, one medium, and one large ZZ plant.",
+      "category": "houseplantsets",
+      "care": "ZZ Plants can tolerate a wide range of light conditions, from low to bright indirect light. They prefer well-draining soil and should be watered when the top inch of soil feels dry. ZZ Plants are drought-tolerant and can go extended periods without water. Fertilize every 2-3 months during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Succulent Soil",
+      "price": 4.99,
+      "description": "The Succulent Soil is a specially formulated soil mix for your succulent plants. It is made of a blend of well-draining materials to promote healthy root growth. The soil is available in various bag sizes.",
+      "category": "soil and fertilisers",
+      "care": "N/A",
+      "is_plant": "No"
+    },
+    {
+      "name": "Terracotta Pot",
+      "price": 7.99,
+      "description": "The Terracotta Pot is a classic and timeless choice for your houseplants. It is made of natural terracotta clay and features a drainage hole to prevent overwatering. The pot is available in various sizes.",
+      "category": "plantpots",
+      "care": "N/A",
+      "is_plant": "No"
+    },
+    {
+      "name": "Spider Plant",
+      "price": 12.99,
+      "description": "Spider Plant, or Chlorophytum comosum, is a popular houseplant known for its arching leaves and small white flowers. It is native to tropical and southern Africa and is easy to care for, making it a great choice for beginners.",
+      "category": "houseplant",
+      "care": "Spider Plants can tolerate a wide range of light conditions, from low to bright indirect light. They prefer well-draining soil and should be watered when the top inch of soil feels dry. Spider Plants benefit from regular misting to increase humidity. Fertilize every 2-4 weeks during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Bird of Paradise Set",
+      "price": 99.99,
+      "description": "The Bird of Paradise Set includes three Bird of Paradise plants of different sizes, perfect for creating a tropical oasis in your home. The set includes one small, one medium, and one large Bird of Paradise plant.",
+      "category": "houseplantsets",
+      "care": "Bird of Paradise plants require bright, indirect light to thrive. They prefer well-draining soil and should be watered when the top inch of soil feels dry. Avoid overwatering as it can lead to root rot. Bird of Paradise plants benefit from regular misting to increase humidity. Fertilize every 2-4 weeks during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Calathea Set",
+      "price": 59.99,
+      "description": "The Calathea Set includes three Calathea plants of different varieties, perfect for adding a touch of vibrant foliage to your home. The set includes one Calathea Orbifolia, one Calathea Medallion, and one Calathea Rattlesnake plant.",
+      "category": "houseplantsets",
+      "care": "Calathea plants prefer bright, indirect light but can tolerate low light conditions. They prefer well-draining soil and should be watered when the top inch of soil feels dry. Calathea plants benefit from regular misting to increase humidity. Fertilize every 2-4 weeks during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "All-Purpose Potting Mix",
+      "price": 5.99,
+      "description": "The All-Purpose Potting Mix is a versatile soil mix for a wide range of houseplants. It is made of a blend of high-quality ingredients to promote healthy root growth. The potting mix is available in various bag sizes.",
+      "category": "soil and fertilisers",
+      "care": "N/A",
+      "is_plant": "No"
+    },
+    {
+      "name": "String of Pearls Set",
+      "price": 39.99,
+      "description": "The String of Pearls Set includes three String of Pearls plants of different sizes, perfect for adding a touch of whimsy to your home. The set includes one small, one medium, and one large String of Pearls plant.",
+      "category": "houseplantsets",
+      "care": "String of Pearls plants prefer bright, indirect light but can tolerate some direct sunlight. They prefer well-draining soil and should be watered when the top inch of soil feels dry. String of Pearls plants are drought-tolerant and should be watered sparingly. Fertilize every 2-3 months during the growing season with a balanced succulent fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "English Ivy Set",
+      "price": 29.99,
+      "description": "The English Ivy Set includes three English Ivy plants of different varieties, perfect for adding a touch of elegance to your home. The set includes one Algerian Ivy, one English Ivy, and one Irish Ivy plant.",
+      "category": "houseplantsets",
+      "care": "English Ivy plants can tolerate a wide range of light conditions, from low to bright indirect light. They prefer well-draining soil and should be watered when the top inch of soil feels slightly dry. English Ivy plants benefit from regular misting to increase humidity. Fertilize every 2-4 weeks during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Ceramic Planter",
+      "price": 14.99,
+      "description": "The Ceramic Planter is a modern and sleek planter for your houseplants. It is made of high-quality ceramic and features a drainage hole and saucer. The planter is available in various colors and sizes.",
+      "category": "plantpots",
+      "care": "N/A",
+      "is_plant": "No"
+    },
+    {
+      "name": "ZZ Plant",
+      "price": 17.99,
+      "description": "ZZ Plant, or Zamioculcas zamiifolia, is a low-maintenance houseplant native to eastern Africa. It is known for its glossy, dark green leaves and ability to tolerate neglect.",
+      "category": "houseplant",
+      "care": "ZZ Plants can tolerate a wide range of light conditions, from low to bright indirect light. They prefer well-draining soil and should be watered when the top inch of soil feels dry. ZZ Plants are drought-tolerant and can go extended periods without water. Fertilize every 2-3 months during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Monstera Set",
+      "price": 79.99,
+      "description": "The Monstera Set includes three Monstera plants of different sizes, perfect for creating a lush and tropical atmosphere in your home. The set includes one small, one medium, and one large Monstera plant.",
+      "category": "houseplantsets",
+      "care": "Monstera plants require bright, indirect light to thrive. They prefer well-draining soil and should be watered when the top inch of soil feels dry. Avoid overwatering as it can lead to root rot. Monstera plants benefit from regular misting to increase humidity. Fertilize monthly during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Monstera",
+      "price": 39.99,
+      "description": "Monstera is a genus of flowering plants in the arum family, Araceae. These plants are native to tropical regions of the Americas. Monstera plants are known for their large, glossy, and perforated leaves, which give them a unique and attractive appearance.",
+      "category": "houseplant",
+      "care": "Monstera plants require bright, indirect light to thrive. They prefer well-draining soil and should be watered when the top inch of soil feels dry. Avoid overwatering as it can lead to root rot. Monstera plants benefit from regular misting to increase humidity. Fertilize monthly during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Macrame Plant Hanger",
+      "price": 9.99,
+      "description": "The Macrame Plant Hanger is a boho-inspired way to display your hanging houseplants. It is made of high-quality macrame cord and features a sturdy loop for hanging. The hanger is available in various styles and lengths.",
+      "category": "plantpots",
+      "care": "N/A",
+      "is_plant": "No"
+    },
+    {
+      "name": "Pruning Shears",
+      "price": 9.99,
+      "description": "The Pruning Shears are essential for maintaining the health and appearance of your houseplants. They are made of high-quality stainless steel and feature sharp blades for precise pruning. The shears are a must-have tool for any plant lover.",
+      "category": "care",
+      "care": "N/A",
+      "is_plant": "No"
+    },
+    {
+      "name": "Indoor Plant Care Kit",
+      "price": 19.99,
+      "description": "The Indoor Plant Care Kit includes everything you need to care for your houseplants. It includes a watering can, plant mister, pruning shears, and plant food. The care kit is a must-have for any plant lover.",
+      "category": "care",
+      "care": "N/A",
+      "is_plant": "No"
+    },
+    {
+      "name": "Aloe Vera",
+      "price": 9.99,
+      "description": "Aloe Vera is a succulent plant species native to the Arabian Peninsula. It is known for its fleshy leaves that contain a gel-like substance with various medicinal properties.",
+      "category": "houseplant",
+      "care": "Aloe Vera plants prefer bright, indirect light but can tolerate some direct sunlight. They prefer well-draining soil and should be watered when the top inch of soil feels dry. Aloe Vera plants are drought-tolerant and should be watered sparingly. Fertilize every 2-3 months during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Jade Plant Set",
+      "price": 34.99,
+      "description": "The Jade Plant Set includes three Jade plants of different sizes, perfect for adding a touch of prosperity to your home. The set includes one small, one medium, and one large Jade plant.",
+      "category": "houseplantsets",
+      "care": "Jade Plants prefer bright, indirect light but can tolerate some direct sunlight. They prefer well-draining soil and should be watered when the top inch of soil feels dry. Jade Plants are drought-tolerant and should be watered sparingly. Fertilize every 2-3 months during the growing season with a balanced succulent fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Aglaonema",
+      "price": 29.99,
+      "description": "Aglaonema is a genus of evergreen herbs and shrubs of the Aroid family, or Araceae, originating from Southeast Asia. It is no coincidence that aglanonema is named after 'wealth'. This particular plant will make everyone stop to immerse themselves in its rich leaves. She looks like a living work of art; each leaf has a burst of color in shades of green and yellow in a dizzying pattern. You won't be able to take your eyes off her!",
+      "category": "houseplant",
+      "care": "Aglaonema needs little water, but it is important that the substrate remains moist. The substrate may be dry between waterings. Too much water can cause root rot. Aglaonema can be placed in many locations, but not in direct sunlight. Fertilize regularly with PLNTS organic fertilizer in spring and summer during the growth phase.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Lucky Bamboo Set",
+      "price": 19.99,
+      "description": "The Lucky Bamboo Set includes three Lucky Bamboo plants of different sizes, perfect for bringing good luck and positive energy to your home. The set includes one small, one medium, and one large Lucky Bamboo plant.",
+      "category": "houseplantsets",
+      "care": "Lucky Bamboo plants can tolerate a wide range of light conditions, from low to bright indirect light. They prefer well-draining soil and should be watered when the top inch of soil feels slightly dry. Lucky Bamboo plants can be grown in water or soil. Fertilize every 2-4 weeks during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Rubber Plant",
+      "price": 29.99,
+      "description": "Rubber Plant, or Ficus elastica, is a popular houseplant known for its large, glossy leaves. It is native to Southeast Asia and is often grown as an indoor tree.",
+      "category": "houseplant",
+      "care": "Rubber Plants prefer bright, indirect light but can tolerate low light conditions. They prefer well-draining soil and should be watered when the top inch of soil feels dry. Avoid overwatering as it can lead to root rot. Rubber Plants benefit from regular misting to increase humidity. Fertilize every 2-4 weeks during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Houseplant Care Guide",
+      "price": 9.99,
+      "description": "The Houseplant Care Guide is a comprehensive guide to caring for your houseplants. It includes information on light requirements, watering schedules, and common plant problems. The care guide is a valuable resource for any plant lover.",
+      "category": "care",
+      "care": "N/A",
+      "is_plant": "No"
+    },
+    {
+      "name": "Organic Plant Food",
+      "price": 9.99,
+      "description": "The Organic Plant Food is a natural and organic fertilizer for your houseplants. It is made of all-natural ingredients and provides essential nutrients for healthy growth. The plant food is available in a liquid or granular form.",
+      "category": "soil and fertilisers",
+      "care": "N/A",
+      "is_plant": "No"
+    },
+    {
+      "name": "Watering Can",
+      "price": 12.99,
+      "description": "The Watering Can is a practical and stylish tool for watering your houseplants. It is made of durable plastic or metal and features a comfortable handle and a long spout for easy pouring. The watering can is available in various sizes and colors.",
+      "category": "care",
+      "care": "N/A",
+      "is_plant": "No"
+    },
+    {
+      "name": "Pothos Set",
+      "price": 44.99,
+      "description": "The Pothos Set includes three Pothos plants of different varieties, perfect for adding a touch of trailing greenery to your home. The set includes one Marble Queen, one Golden Pothos, and one Neon Pothos plant.",
+      "category": "houseplantsets",
+      "care": "Pothos plants can tolerate a wide range of light conditions, from low to bright indirect light. They prefer well-draining soil and should be watered when the top inch of soil feels dry. Pothos plants are forgiving when it comes to watering, so it's better to underwater than overwater. Fertilize every 2-4 weeks during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Peace Lily",
+      "price": 24.99,
+      "description": "Peace Lily, or Spathiphyllum, is a popular indoor plant known for its elegant white flowers and glossy green leaves. It is native to tropical regions of the Americas and is often used as a symbol of peace and purity.",
+      "category": "houseplant",
+      "care": "Peace Lilies prefer bright, indirect light but can tolerate low light conditions. They thrive in well-draining soil and should be watered when the top inch of soil feels dry. Avoid overwatering as it can lead to root rot. Peace Lilies benefit from regular misting to increase humidity. Fertilize every 2-3 months during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Peace Lily Set",
+      "price": 69.99,
+      "description": "The Peace Lily Set includes three Peace Lily plants of different sizes, perfect for bringing a sense of peace and tranquility to your home. The set includes one small, one medium, and one large Peace Lily plant.",
+      "category": "houseplantsets",
+      "care": "Peace Lilies prefer bright, indirect light but can tolerate low light conditions. They thrive in well-draining soil and should be watered when the top inch of soil feels dry. Avoid overwatering as it can lead to root rot. Peace Lilies benefit from regular misting to increase humidity. Fertilize every 2-3 months during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Boston Fern Set",
+      "price": 49.99,
+      "description": "The Boston Fern Set includes three Boston Fern plants of different sizes, perfect for adding a touch of lush greenery to your home. The set includes one small, one medium, and one large Boston Fern plant.",
+      "category": "houseplantsets",
+      "care": "Boston Ferns prefer bright, indirect light but can tolerate low light conditions. They prefer well-draining soil and should be watered when the top inch of soil feels slightly dry. Boston Ferns benefit from regular misting to increase humidity. Fertilize every 2-4 weeks during the growing season with a balanced houseplant fertilizer.",
+      "is_plant": "Yes"
+    },
+    {
+      "name": "Indoor Plant Fertilizer",
+      "price": 6.99,
+      "description": "The Indoor Plant Fertilizer is a balanced fertilizer specifically designed for houseplants. It provides essential nutrients for healthy growth and vibrant foliage. The fertilizer is available in a liquid or granular form.",
+      "category": "soil and fertilisers",
+      "care": "N/A",
+      "is_plant": "No"
+    }
+  ]}
