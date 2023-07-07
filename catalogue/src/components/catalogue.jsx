@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Logo from './Logo.png';
-import { Box, Flex, Grid, Image, Button, Checkbox, Stack, Text } from '@chakra-ui/react';
+import { Box, Flex, Grid, Image, Button, Checkbox, Stack, Text, Input } from '@chakra-ui/react';
 import axios from "axios";
 import ProductSimple from "./card";
+import { Link } from "react-router-dom";
 
 export default function Catalogue() {
   const [plants,setPlants]=useState([])
@@ -16,7 +17,7 @@ export default function Catalogue() {
   const[soil,setSoil]=useState(false)
 
   useEffect(() => {
-    axios.get(`https://run.mocky.io/v3/bbc909eb-c737-475b-aa3a-2c5424cfdc7f`)
+    axios.get(`https://run.mocky.io/v3/85502878-3238-4697-9d85-7f13ddba3ee0`)
       .then(res => { setPlants(res.data);setData(res.data);console.log(res.data) })
       .catch(err => { console.log(err); });
   }, []);
@@ -60,6 +61,14 @@ export default function Catalogue() {
     console.log(newData)
     setData(newData);
   }
+
+  function search(e){
+    console.log(e)
+    const setResult = plants.filter((ele)=>{
+      return ele.name.toLowerCase().includes(e.toLowerCase());
+    })
+    setData(setResult)
+  }
   console.log(house,set,pot,soil)
 
   const indexOfLastItem = currentPage * itemsPerPage;
@@ -76,13 +85,22 @@ export default function Catalogue() {
   return (
     <Box w={"80%"} m={"auto"} padding={"2%"}>
       <Box>
-        <Image src={Logo} alt="catalogue logo" />
+        <Image src={Logo} alt="catalogue logo" marginBottom={"5%"}/>
       </Box>
       <Flex>
         <Box ml={4} mr={4}>
           <Box color={"black"} m={"auto"} w={"200px"}>
             <Stack>
+            <Input
+              placeholder='Search'
+              _placeholder={{ opacity: 1, color: 'black' }}
+              border={'1px'}
+              borderColor={'#486d00'}
+              onChange={(e)=>{search(e.target.value)}}
+            />
+              <Link>
               <Text align={"left"} onClick={()=>{setHouse(false);setSet(false);setPot(false);setSoil(false)}}> Reset Filter </Text>
+              </Link>
               <Checkbox borderColor="black" colorScheme="black" isChecked={house} onChange={()=>{setHouse(!house)}}> HousePlants </Checkbox>
               <Checkbox borderColor="black" colorScheme="black" isChecked={set} onChange={()=>{setSet(!set)}}> HousePlant Sets </Checkbox>
               <Checkbox borderColor="black" colorScheme="black" isChecked={pot} onChange={()=>{setPot(!pot)}}> Flowerpot </Checkbox>

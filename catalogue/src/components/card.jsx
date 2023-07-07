@@ -11,8 +11,6 @@ import {
 import { useDispatch } from "react-redux";
 
 import { Link, useNavigate } from 'react-router-dom';
-  const IMAGE =
-    'https://hortology.co.uk/cdn/shop/products/Polyscias-Fabian-Aralia-Fabian-27x100cm_5000x.jpg?v=1686670806';
   
   export default function ProductSimple({key,src,name,price,data}) {
     const dispatch=useDispatch()
@@ -24,7 +22,7 @@ import { Link, useNavigate } from 'react-router-dom';
     }
     return (
     <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" bgColor={"#fcfae0"} key={key}>
-      <Image src={IMAGE} alt="product image" />
+      <Image src={src} alt="product image" w={"100%"}/>
       <Box p="6">
         <Text fontWeight="bold" fontSize="xl" color='black' onClick={HandleDetail}>
           {name}
