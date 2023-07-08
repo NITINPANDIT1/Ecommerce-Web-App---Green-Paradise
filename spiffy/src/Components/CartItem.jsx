@@ -10,17 +10,19 @@ const CartItem = ({ item, increaseQuantity, decreaseQuantity, removeItem }) => {
   direction={{ base: 'column', sm: 'row' }}
   overflow='hidden'
   variant='outline'
+  w={"80%"}
+  bgColor={"lightGreen"}
 >
   <Image
     objectFit='cover'
-    maxW={{ base: '100%', sm: '200px' }}
-    src='https://images.unsplash.com/photo-1667489022797-ab608913feeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60'
-    alt='Caffe Latte'
+    maxW={{ base: '100%', sm: '250px' }}
+    src={item.image}
+    alt='Product Image'
   />
 
   <Stack>
-    <CardBody>
-      <Heading size='md'>{item.name}</Heading>
+    <CardBody >
+      <Heading size='md' py='2'>{item.name}</Heading>
 
       <Heading size="sm" py='2'>
       Price: ${item.price} 
