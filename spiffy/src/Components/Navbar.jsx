@@ -1,8 +1,12 @@
 import React from 'react';
-import { Link as RouterLink } from 'react-router-dom';
+import { Link as RouterLink,useLocation } from 'react-router-dom';
 import { Box, Flex, Link, Button } from '@chakra-ui/react';
+import { useState } from 'react';
 
 function Navbar() {
+    
+    
+    
   return (
     <Box bg="darkGreen" color="white" borderRadius={"10px"} boxShadow="md" px={4} marginTop={"30px"} marginBottom={"30px"}>
       <Flex

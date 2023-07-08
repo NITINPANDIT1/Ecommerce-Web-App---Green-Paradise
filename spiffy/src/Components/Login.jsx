@@ -60,10 +60,13 @@ const LoginPage = () => {
         }else{
             const elem=details.find((elem)=> elem.mobile_no==contact);
             if(elem.password == password){
-                    navigate("/");
+                console.log(elem);
+
+                    setName(elem.name)
+                    navigate("/",{state:{name}});
                     
             }else          
-                alert(`WRONG PASSWORD : "Please fill the right password" or "Click On Forget Password"`);
+                alert(`WRONG PASSWORD : "Please fil the right password" or "Click On Forget Password"`);
             
             }
     

@@ -123,8 +123,29 @@
       "f_name": "Nitin",
       "l_name": "Sharma",
       "mobile_no": "7830499337",
-      "password": "1212",
+      "password": "12345",
       "id": 18
+    },
+    {
+      "f_name": "nanalksdf",
+      "l_name": "kdsfla",
+      "mobile_no": "123456",
+      "password": "123456",
+      "id": 19
+    },
+    {
+      "f_name": "jflak",
+      "l_name": "lksklfjl",
+      "mobile_no": "7823",
+      "password": "7823",
+      "id": 20
+    },
+    {
+      "f_name": "sdkfjl",
+      "l_name": "jsalkf",
+      "mobile_no": "7830499337",
+      "password": "12345",
+      "id": 21
     }
   ]
 }

@@ -2,12 +2,16 @@ import { ArrowBackIcon, ArrowForwardIcon } from "@chakra-ui/icons";
 import { Box, Button, Center, Flex, Grid, Heading, Image, Text } from "@chakra-ui/react";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link ,useLocation} from "react-router-dom";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 
 export default function Home(){
+
+    const location = useLocation();
+    console.log(location.state);
+    // console.log(location.state.name);
     const [review,setReview]=useState([])
     const[current,setCurrent]=useState(0)
     
@@ -37,6 +41,7 @@ export default function Home(){
     return (
        
         <Box w={"80%"} m={"auto"}>
+            {/* <Box><Heading>`Hi ${location.state.name} `</Heading></Box> */}
              <Navbar/>
             <Grid templateColumns="repeat(auto-fit, minmax(300px, 1fr))" gap={4}>
                 <Box>
