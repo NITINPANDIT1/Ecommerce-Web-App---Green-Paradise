@@ -11,6 +11,9 @@ const initialState = {
       case "put":
           return {...state,item:payload}
           case "AddToCart":
+            let arr4 =  state.cart.map((item) =>
+            item.id === payload.id ? { ...item, quantity: item.quantity + 1 } : item
+          )
             return { ...state, cart: state.cart.concat(payload)};
          case "incQ":
             let arr =  state.cart.map((item) =>

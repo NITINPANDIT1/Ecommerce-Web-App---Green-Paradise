@@ -10,7 +10,7 @@ const CartItem = ({ item, increaseQuantity, decreaseQuantity, removeItem }) => {
   direction={{ base: 'column', sm: 'row' }}
   overflow='hidden'
   variant='outline'
-  w={"80%"}
+  w={"95%"}
   bgColor={"lightGreen"}
 >
   <Image

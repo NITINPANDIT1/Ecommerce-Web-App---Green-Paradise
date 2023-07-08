@@ -1,5 +1,6 @@
 import React from 'react';
-import { Box, Heading, Image,Center, Link ,Button} from '@chakra-ui/react'
+import { Box, Heading, Image,Center ,Button} from '@chakra-ui/react'
+import { Link } from 'react-router-dom';
 const Success = () => {
   return (
     <Box >
@@ -11,7 +12,7 @@ const Success = () => {
 /></Center>
     
       <Heading>Payment Successfull</Heading>
-      <Button as={Link} to={"/"} colorScheme={'teal'} >Home</Button>
+      <Button as={Link} to={"/catalouge"} colorScheme={'teal'} >Home</Button>
     </Box>
   );
 };

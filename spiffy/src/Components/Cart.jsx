@@ -6,13 +6,15 @@ import { useSelector,useDispatch } from 'react-redux';
 
 import './Styles/Cart.css';
 
-import { Heading, Grid, Box } from '@chakra-ui/react';
+import { Heading, Grid, Box ,Spacer} from '@chakra-ui/react';
 import { Example } from './Stepper';
 import PersonalInfoForm from './PersonalInfo';
 import DeliveryDetailsForm from './Delivery';
 import PaymentForm from './Payment';
 import OTPPage from './Otp';
 import Success from './Success';
+import Footer from './Footer';
+import Navbar from './Navbar';
 
 function Cart() {
                 let dispatch=useDispatch()
@@ -45,8 +47,11 @@ function Cart() {
   console.log(page);
 
   return (
-    <Box >
-      <Heading>Shopping Cart</Heading>
+    <Box w={"80%"} marginTop={"20px"} margin={"auto"}>
+      <Spacer> </Spacer>
+    <Navbar/>
+    <Box textColor={"darkGreen"}>
+      <Heading>Your Cart</Heading>
       <Grid templateColumns="repeat(2, 1fr)" gap={6} w="100%" margin="auto">
         <div>
           <Heading>Check out</Heading>
@@ -60,6 +65,7 @@ function Cart() {
               <PaymentForm setIt={setPage} />
             ) : page === 3 ? (
               <OTPPage setIt={setPage} />
+              
             ) : page === 4 ? (
               <Success />
             ) : (
@@ -87,6 +93,8 @@ function Cart() {
         </div>
        
       </Grid>
+    </Box>
+    <Footer/>
     </Box>
   );
 }

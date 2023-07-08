@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { ChakraProvider, Box, FormControl, FormLabel, Input, Button } from '@chakra-ui/react';
 
 const OTPPage = ({setIt}) => {
+   
   const [otp, setOTP] = useState('');
 
   const handleChange = (e) => {
@@ -12,11 +13,17 @@ const OTPPage = ({setIt}) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(otp);
-     setIt(4)
+    if(otp==="12345"){
+      setIt(4)
+    }else{
+      alert("Wrong OTP, Try Again!!")
+    }
+     
   };
 
   return (
     <ChakraProvider>
+
       <Box maxWidth="400px" mx="auto" mt={8} p={4}>
         <form onSubmit={handleSubmit}>
           <FormControl mb={4}>

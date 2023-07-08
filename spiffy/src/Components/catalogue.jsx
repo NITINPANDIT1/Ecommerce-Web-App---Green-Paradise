@@ -4,6 +4,8 @@ import { Box, Flex, Grid, Image, Button, Checkbox, Stack, Text, Input } from '@c
 import axios from "axios";
 import ProductSimple from "./Card";
 import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 export default function Catalogue() {
   const [plants,setPlants]=useState([])
@@ -84,6 +86,9 @@ export default function Catalogue() {
 
   return (
     <Box w={"80%"} m={"auto"} padding={"2%"}>
+
+        <Navbar/>
+        
       <Box>
         <Image src={Logo} alt="catalogue logo" marginBottom={"5%"}/>
       </Box>
@@ -130,6 +135,7 @@ export default function Catalogue() {
           </Flex>
         </Flex>
       </Flex>
+      <Footer/>
     </Box>
   );
 }
