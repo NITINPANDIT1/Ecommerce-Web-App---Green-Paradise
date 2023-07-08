@@ -1,0 +1,149 @@
+/* body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/904/919/original/green-leaf-background-illustration-free-vector.jpg");
+    width: 100%;
+    height: 100%;
+  
+} */
+.mainLogin{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/904/919/original/green-leaf-background-illustration-free-vector.jpg");
+    height:619px;
+    display:flex;
+    margin-top: -30px;
+    /* justify-items: center; */
+    justify-content: center;
+
+} 
+
+
+
+/* Login */
+.login{
+    
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/004/904/919/original/green-leaf-background-illustration-free-vector.jpg"); */
+    /* margin: 161px auto; */
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 40px;
+    justify-content: center;
+
+}
+.login>input{
+   
+    margin: 9px;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    width: 96%;
+
+}
+.login>button{
+    margin-left: 9px;
+    border-radius: 10px;
+    border: none;
+    padding: 0px;
+    width: 29%;
+    color: red;
+    background-color: palegoldenrod;
+}
+.login>div{
+    display: flex;
+    margin: 0px -13px;
+    margin-left: -8px;
+    margin-right: -18px;
+}
+
+.login>div>button{
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(58, 149, 58);
+
+}
+.login>div>button:hover{
+    
+    
+    background-color: #F0903C
+
+}
+
+
+/* SignUp */
+
+.signup{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 43px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.signup>input{
+    margin: 3px;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    width: 100%;
+
+
+}
+.signup>button{
+    
+    /* margin: 20px; */
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    width: 113%;
+    margin-left: 4px;
+    margin-top: 10px;
+    background-color: rgb(58, 149, 58);
+
+}
+.signup>button:hover{
+    
+    
+    background-color: #F0903C
+
+
+}
+
+/* ChangePassword */
+.changePassword{
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/004/904/919/original/green-leaf-background-illustration-free-vector.jpg"); */
+    margin: 161px auto;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 43px;
+    justify-content: center;
+}
+.changePassword>input{
+   
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    width: 86%;
+
+}
+.changePassword>button{
+    
+    /* margin: 20px; */
+    border-radius: 10px;
+    border: none;
+    padding: 18px;
+    width: 99%;
+    margin-left: 5px;
+    margin-top: 10px;
+    background-color: rgb(58, 149, 58);
+}
+.changePassword>button:hover{
+    
+    
+    background-color: #F0903C
+
+
+}
