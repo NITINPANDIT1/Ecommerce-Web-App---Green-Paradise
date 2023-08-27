@@ -5,7 +5,7 @@ Green Paradise is an e-commerce website built using React, Redux, and Chakra UI.
 ## Team Members
 
 - Nitin Sharma: Cart Page, Payment Page
-- Kamsl Kant : Homepage, Product and Product Details Page
+- Kamal Kant : Homepage, Product and Product Details Page
 - Md Zaid: Login and Signup
 
 ## Features
@@ -28,7 +28,7 @@ Green Paradise is an e-commerce website built using React, Redux, and Chakra UI.
 
 ## Getting Started
 
-1. Clone this repository: `git clone https://github.com/your-username/green-paradise.git`
+1. Clone this repository: `git clone https://github.com/NITINPANDIT1/Ecommerce-Web-App---Green-Paradise`
 2. Navigate to the project directory: `cd green-paradise`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
